@@ -1,13 +1,13 @@
-import { Inter } from 'next/font/google'
-import './globals.css'
-import Header from './Header'
-const inter = Inter({ subsets: ['latin'] })
-import Footer from './Footer'
+import { Inter } from "next/font/google";
+import "./globals.css";
+import Header from "./Header";
+const inter = Inter({ subsets: ["latin"] });
+import Footer from "./Footer";
 
 export const metadata = {
-  title: 'Eva Knowles',
-  description: 'Artist',
-}
+  title: "Eva Knowles",
+  description: "Artist",
+};
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -16,9 +16,7 @@ export default function RootLayout({ children }) {
           <header>
             <Header />
           </header>
-          <main className="flex-grow">
-            {children}
-          </main>
+          <main className="flex-grow flex">{children}</main>
           <footer>
             <Footer />
           </footer>
