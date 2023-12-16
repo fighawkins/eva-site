@@ -4,16 +4,11 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-rgb: 245, 245, 245; /* Off-White */
+  --background-rgba: 135, 206, 235 .2; /* Off-White */
   --font-family: "Helvetica", sans-serif; /* Use Helvetica font */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-rgb: 0, 0, 0; /* Black */
-  }
-}
+
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -24,3 +19,4 @@ body {
 .custom-text-outline {
   -webkit-text-stroke: 2px red;
 }
+
