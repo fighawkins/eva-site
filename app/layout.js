@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
           <header>
             <Header />
           </header>
-          <main className="flex-grow flex">{children}</main>
+          <main className="flex-grow flex flex-col justify-center">{children}</main>
           <footer>
             <Footer />
           </footer>
