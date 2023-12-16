@@ -4,19 +4,43 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-rgba: 135, 206, 235 .2; /* Off-White */
-  --font-family: "Helvetica", sans-serif; /* Use Helvetica font */
+  --font-family: 'Helvetica', sans-serif; 
 }
 
-
-
-body {
+html,body {
   color: rgb(var(--foreground-rgb));
-  font-family: var(--font-family); /* Apply Helvetica font */
-  background-color: rgb(var(--background-rgb)); /* Set background to off-white */
+  font-family: var(--font-family); 
+  background-color: white; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .custom-text-outline {
   -webkit-text-stroke: 2px red;
 }
 
+#root, .page-container {
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
+main {
+  flex: 1; 
+}
+.diagonal-slant {
+  transform: rotate(8deg); /* Adjust the angle as needed */
+}
+
+.text-center {
+  position: absolute;
+  top: 0%; /* Adjust this value to move the text up */
+  left: 50%;
+  transform: translate(-50%, -20%);
+  width: 100%; /* Ensure the text is centered within this container */
+}
