@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -17,4 +18,14 @@
 
 .diagonal-slant {
   transform: rotate(8deg); /* Adjust the angle as needed */
+}
+
+.hover-link {
+  transition: transform 0.3s ease-in-out, color 0.3s;
+  display: inline-block; /* Allows transform to work on inline elements like <span> */
+}
+
+.hover-link:hover {
+   /* Or any highlight color you prefer */
+  transform: translateY(-2px) scale(1.02); /* Increase the scale for more noticeable growth */
 }

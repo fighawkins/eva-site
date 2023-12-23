@@ -20,7 +20,7 @@ const Footer = () => {
       <div onClick={() => setShowEmail(!showEmail)} className="cursor-pointer">
         <FaEnvelope className="text-lg text-gray-600" />
       </div>
-      {showEmail && <span className="text-sm text-gray-600">email@example.com</span>}
+      {showEmail && <span className="text-sm text-gray-600">eeva.knowles@gmail.com</span>}
     </footer>
   );
 };
