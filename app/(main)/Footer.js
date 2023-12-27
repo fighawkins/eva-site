@@ -10,7 +10,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="flex justify-center items-center space-x-4 py-4">
+    <footer className=" fixed bottom-0 left-0 right-0 z-50 bg-white flex justify-center items-center space-x-4 py-4 ">
       <div onClick={() => handleRedirect('https://www.instagram.com/goosesgeeses')} className="cursor-pointer">
         <FaInstagram className="text-lg text-gray-600 hover:text-gray-800" />
       </div>
