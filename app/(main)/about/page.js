@@ -2,7 +2,7 @@ const About = () => {
     return (
       <div className="container mx-auto  ">
        
-       <div className="container mt-20  mx-auto " >
+       <div className="container mt-14  mx-auto " >
       <div className=" flex flex-col items-center justify-center relative z-10 min-h-screen mt-10 mb-10">
           <div className="md:w-1/2 p-8">
             <p className="italic text-left leading-relaxed">
