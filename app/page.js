@@ -8,7 +8,7 @@ import Link from 'next/link';
 const Home = () => (   
   
   <div className="w-full h-screen relative">
-  <video autoPlay loop muted className="absolute top-0 left-0 w-full h-full object-cover">
+  <video autoPlay playsInline loop muted className="absolute top-0 left-0 w-full h-full object-cover">
         <source src="/website.mp4" type="video/mp4" />
         {/* Fallback content or GIF as needed */}
       </video>
