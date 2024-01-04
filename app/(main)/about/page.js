@@ -11,7 +11,7 @@ const About = () => {
             </p>
           </div>
           <div className="md:w-1/2 p-4 flex justify-center mt-8">
-            <img src="/stretch.png" alt="Artist" className="w-1/2 object-cover" style={{ height: '200% !important' }} />
+            <img src="/stretch.webp" alt="Artist" className="w-1/2 object-cover" style={{ height: '200% !important' }} />
           </div>
         </div>
       </div>

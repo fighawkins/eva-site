@@ -10,7 +10,7 @@ const NewPage = () => (
    
     <div className="w-3/5 lg:w-1/3 h-3/5    relative ">
       <Image
-        src="/image3.png"
+        src="/image3.webp"
         alt="Image"
         width="668"
         height="700"
